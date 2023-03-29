@@ -16,4 +16,4 @@ Script auto cài đặt 3 test cases gồm:
 4. Thư viện Test NG để ghi kết quả Test Report 
 5. Cấu trúc Dự án lưu dạng Maven, quản lý thư viện qua file POM
 6. Cấu trúc thư mục code dự án quản lý theo mô hình POM (Page Object Models)
-7. Trình duyệt Chrome Version 111.0.5563.112 (Official Build) (64-bit) và Chrome Driver version 111.0.5563.64
+7. Trình duyệt Chrome version 111.0.5563.112 (Official Build) (64-bit) và Chrome Driver version 111.0.5563.64
