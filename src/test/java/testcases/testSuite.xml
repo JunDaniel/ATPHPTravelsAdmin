@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="POM AT PHP Travels Admin">
+    <parameter name="browserType" value="chrome" />
+    <parameter name="url"
+               value="https://phptravels.net/api/admin" />
+
+    <test name="tc01: verifyLoginPHPTravelAdmin">
+        <parameter name="email" value="admin@phptravels.com"/>
+        <parameter name="pwd" value="demoadmin"/>
+        <classes>
+            <class name="testcases.LoginTest">
+                <methods>
+                    <include name="tc01_verifyLoginPHPTravelAdmin" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="tc02: verifyDisplayPlaceholderInputs">
+        <classes>
+            <class name="testcases.LoginTest">
+                <methods>
+                    <include name="tc02_verifyDisplayPlaceholderInputs" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="tc03: verifyClickCheckboxRememberMe">
+        <classes>
+            <class name="testcases.LoginTest">
+                <methods>
+                    <include name="tc03_verifyClickCheckboxRememberMe" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
