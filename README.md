@@ -5,6 +5,7 @@ Script auto cài đặt 3 test cases gồm:
 3. Test case 3: Verify trạng thái click nút checkbox Remember me trên giao diện trang Login PHP Travels Admin
 
 ## Video demo: 
+1. Link video: https://youtu.be/VCNeSKs_yKc
 
 ## Thông tin code dự án
 1. Dùng IDE Intelij 
